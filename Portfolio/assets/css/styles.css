@@ -1,0 +1,77 @@
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume-section {
+    padding: 80px 0;
+}
+
+.resume-item {
+    margin-bottom: 30px;
+}
+
+.resume-item h4 {
+    color: #0078ff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.resume-item p {
+    color: #4864be;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/*--------------------------------------------------------------
+# Projects
+--------------------------------------------------------------*/
+.project-section {
+    padding: 80px 0;
+}
+
+.project-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.project-item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+}
+
+.project-icon {
+    font-size: 48px;
+    color: #0078ff;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-item:hover .project-icon {
+    transform: scale(1.2);
+}
+
+.project-item h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #0078ff;
+}
+
+.project-item p {
+    color: #4e4e4e;
+    font-size: 16px;
+    line-height: 1.6;
+}
+h2{
+    text-align: center;
+   
+}
